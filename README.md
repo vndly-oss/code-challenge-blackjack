@@ -5,7 +5,7 @@ You are tasked with making the Blackjack card game.
 ## Development
 
 - Run `npm install` to install the dependencies.
-- Run `npm start` to open the app for development. It uses Parcel.
+- Run `npm start` to open the app for development. It uses Parcel. (Feel free to use any bundler or dev setup you like)
 
 ## Requirements
 
