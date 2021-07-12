@@ -7,12 +7,21 @@ You are tasked with making the Blackjack card game.
 - Run `npm install` to install the dependencies.
 - Run `npm start` to open the app for development. It uses Parcel. (Feel free to use any bundler or dev setup you like)
 
+## Considerations
+- You may use any npm modules you like (e.g. React, Vue, Svelte, jQuery, etc).
+  We start you off with no structure on purpose.
+- Make as many files, folders as you like. This is **your** project.
+- Styling is bonus.
+- Testing is bonus.
+
 ## Requirements
 
 - A Dealer (subsisting of a very basic AI) and a Player (the user)
 - A Deal Button - when clicked deals a new game.
-- New game deals two cards to the Dealer and two cards to the Player. Both players have one card face up and one face down
-- Display visibleScore for both players at all times
+- New game deals two cards to the Dealer and two cards to the Player
+  - Dealer has one card face up, one face down
+  - Player has all cards face up
+- Display `visibleScore` for both players at all times, keep the Dealer's actual score hidden until the end.
 - A Hit Button - when clicked adds another card to the Player's hand
   - If Player's hand score reaches 21, game is over and they win, move to the END OF THE GAME
   - If Player's hand score exceeds 21, game is over and they lose/bust, move to the END OF THE GAME
@@ -20,17 +29,13 @@ You are tasked with making the Blackjack card game.
   - Dealer will hit if their hand is a score of 17 or below, otherwise they will stand.
   - If Dealers's hand score exceeds 21, game is over and they lose/bust, move to the END OF THE GAME
 - Once Dealer stands it is the END OF THE GAME:
-  - Turn all cards face up.
+  - Turn Dealer's face down card to be face up.
   - If either player busts, the other player automatically wins.
   - Calculate and display final scores of both players.
   - Announce the winner.
   - In case of tie, Player wins.
 - You _must_ use the included utilities, documentation is below.
 - You may modify or extend the utilities.
-- You may use any npm modules you like.
-- Make as many files, folders as you like.
-- Styling is optional.
-- Testing is optional.
 
 ---
 
