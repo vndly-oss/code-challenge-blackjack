@@ -25,10 +25,9 @@ You are tasked with making the Blackjack card game.
 - A Hit Button - when clicked adds another card to the Player's hand
   - If Player's hand score reaches 21, game is over and they win, move to the END OF THE GAME
   - If Player's hand score exceeds 21, game is over and they lose/bust, move to the END OF THE GAME
-- A Stand Button - when clicked Player chooses to be done receiving cards. Play out the Dealers hand based on the following AI
-  - Dealer will hit if their hand is a score of 17 or below, otherwise they will stand.
-  - If Dealers's hand score exceeds 21, game is over and they lose/bust, move to the END OF THE GAME
-- Once Dealer stands it is the END OF THE GAME:
+- A Stand Button - when clicked Player chooses to be done receiving cards. 
+  - Deal out cards to the Dealers hand until Dealer's score reaches 18 or higher, move to the END OF THE GAME
+- Once Dealer is done receiving cards it is the END OF THE GAME:
   - Turn Dealer's face down card to be face up.
   - If either player busts, the other player automatically wins.
   - Calculate and display final scores of both players.
